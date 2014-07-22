@@ -2068,7 +2068,7 @@ var requirejs, require, define;
 }(this));
 
 require.config({
-    urlArgs: 'v=20140721233319%2B0800',
+    urlArgs: 'v=20140722091038%2B0800',
 	baseUrl: '/',
 	waitSeconds: 0,
 	packages: ['commons/app/templates', 'auditor/templates','settings/templates','signup/templates','login/templates'],

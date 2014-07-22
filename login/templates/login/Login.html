@@ -1,11 +1,24 @@
-<form role="form">
-    <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+
+<div class="ui-draggable ui-dialog ui-widget ui-widget-content ui-corner-all ui-front wijmo-wijdialog lm-dialog lm-date-range-dialog" tabindex="-1" role="dialog" style="z-index: 1004; height: auto; width: 560px; top: 160px; left: 680px; display: block;" aria-describedby="ui-id-4" aria-labelledby="ui-id-5">
+    <div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix">
+        <span id="ui-id-5" class="ui-dialog-title">
+            <i class=""></i>Login
+        </span>
+
     </div>
-    <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <div id="ui-id-4" class="ui-dialog-content ui-widget-content" scrolltop="0" scrollleft="0" style="display: block; width: auto; min-height: 69px; max-height: none; height: auto;">
+    <div class="daterange-container">
+        <form action="" id="lm-login-form">
+            <label for="report-name" class="required">UserName</label>
+            <input type="text" id="report-name" name="username" placeholder="user name" class="validate[required]">
+            <label for="report-psd" class="required">PassWord</label>
+            <input type="password" id="report-psd" name="password" placeholder="password" class="validate[required]">
+            <div class="row add-clearfix dlg-cmd-area">
+                <div class="twelve columns ">
+                    <button style="margin:0 0px 10px 10px" class="medium purple button right" id="submit-button">login</button>
+                    <button style="margin:0 0px 10px 10px" class="lm-button icon-button right gray" id="sign-button">sign up</button>
+                </div>
+            </div>
+        </form>
     </div>
-    <button type="submit" class="btn btn-default">Submit</button>
-</form>
+</div></div>

@@ -8,6 +8,45 @@
         <link rel="stylesheet" href="../commons/css/startup.css">
     </head>
     <body>
+    <div id="headerbar" class="add-clearfix top-nav">
+        <div style="float: left">
+            <a href="#"><img alt="logo" id="companyLogo" src="/santaba/do/loadlogo" style="float:left; height: 31px; width: 180px;margin-top:16px;margin-left: 13px;"></a>
+            <span style="font-size:11px; color: rgb(180, 181, 181); display: block; float: left; margin-left: 10px;"><img src="/santaba/uiv3/commons/images/logos/powered_by.png"></span>
+        </div>
+        <div style="position:absolute;right:5px;">
+            <a href="/santaba/uiv2/alert/index.jsp" id="lnkOldUI">toggle UI</a>
+            <a id="lnkHelp" href="javascript:;" class="btn-help" style="top: 12px;margin-right: 10px;margin-left: 25px;"><span class="down"></span></a>
+            <span class="tiny-splitter" style="margin: 0 6px;"></span>
+            <div class="ui-widget ui-widget-header wijmo-wijmenu ui-corner-all ui-helper-clearfix" aria-activedescendant="ui-active-menuitem" role="menu" style="display: none;"><div class="scrollcontainer checkablesupport"><ul id="help-menu" style="width: 240px;" class="add-clearfix lm-menu wijmo-wijobserver-visibility wijmo-wijmenu-list ui-helper-reset" tabindex="0">
+                <li role="menuitem" class="ui-widget wijmo-wijmenu-item ui-state-default ui-corner-all" aria-haspopup="true"><a id="help-documentation-button" href="http://help.logicmonitor.com" target="_blank" class="wijmo-wijmenu-link ui-corner-all"><span class="wijmo-wijmenu-text">Documentation</span></a>
+                </li>
+
+                <li class="wijmo-wijmenu-separator ui-state-default ui-corner-all" aria-haspopup="true"><span class="wijmo-wijmenu-separator-content">&nbsp;</span></li>
+                <li id="LiveChat_1344442800" class="live-chat ui-widget wijmo-wijmenu-item ui-state-default ui-corner-all" role="menuitem" aria-haspopup="true"><div id="LiveChat_1344442800_button"><a id="LiveChat_1344442800_btn" href="https://secure.livechatinc.com/licence/1394252/open_chat.cgi?groups=1&amp;session_id=S1405567441.e1cea0afe7" target="chat_1394252_secure.livechatinc.com"><img src="//livechat.s3.amazonaws.com/1394252/1/button/online/e529e4d77bbf713c04b54fcf9949cbb8.png" style="border: 0px;"></a></div><a class="wijmo-wijmenu-link ui-corner-all" target="_blank" style="font-family: Tahoma, sans-serif; font-size: 11px; line-height: 16px; text-decoration: none;"><span class="wijmo-wijmenu-text">Loading...</span></a></li>
+                <li class="wijmo-wijmenu-separator ui-state-default ui-corner-all" aria-haspopup="true"><span class="wijmo-wijmenu-separator-content">&nbsp;</span></li>
+
+                <li role="menuitem" class="ui-widget wijmo-wijmenu-item ui-state-default ui-corner-all" aria-haspopup="true"><a id="help-support-button" href="https://www.logicmonitor.com/lmauth/lmauth_sso.php" target="_blank" class="wijmo-wijmenu-link ui-corner-all"><span class="wijmo-wijmenu-text">Support request</span></a>
+                </li>
+                <li class="wijmo-wijmenu-separator ui-state-default ui-corner-all" aria-haspopup="true"><span class="wijmo-wijmenu-separator-content">&nbsp;</span></li>
+
+                <li role="menuitem" class="ui-widget wijmo-wijmenu-item ui-state-default ui-corner-all" aria-haspopup="true"><a id="help-tutorials-button" href="http://www.logicmonitor.com/logicmonitor-training-videos/" target="_blank" class="wijmo-wijmenu-link ui-corner-all"><span class="wijmo-wijmenu-text">Tutorials</span></a>
+                </li>
+                <li class="wijmo-wijmenu-separator ui-state-default ui-corner-all" aria-haspopup="true"><span class="wijmo-wijmenu-separator-content">&nbsp;</span></li>
+
+                <li role="menuitem" class="ui-widget wijmo-wijmenu-item ui-state-default ui-corner-all" aria-haspopup="true"><a id="help-whatsnew-button" href="http://releases.logicmonitor.com" target="_blank" style="border:none;" class="wijmo-wijmenu-link ui-corner-all"><span class="wijmo-wijmenu-text">What's new?</span></a>
+                </li>
+            </ul></div></div>
+            <a href="#" id="lnkEditProfile" class="gray-link">cohlint</a>
+            <script type="text/javascript">
+                window.securityToken = "fc22b66d7776f10cf7802a7f0e5d3a88";
+                window.securityUserName = "cohlint";
+                window.santabaTimeStamp = 1406016297721;
+                window.santabaTimeDelta = new Date().getTime() - santabaTimeStamp - 100;
+            </script>
+            <span class="tiny-splitter" style="margin:0 6px;"></span>
+            <a href="/santaba/rpc/signOut" id="lnkLogout" class="gray-link">logout</a>
+        </div>
+    </div>
         <div id="main"></div>
         <script src="../startup.js"></script>
         <script src="http://localhost:35729/livereload.js"></script>

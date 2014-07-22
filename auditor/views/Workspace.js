@@ -8,7 +8,7 @@ define([
 
     return core.View.extend({
 
-		template: templates['auditor/WorkSpace'],
+		template: templates['auditor/Workspace'],
 
 		initialize: function (options) {
 			this.activeTab = options.tab;
